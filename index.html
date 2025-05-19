@@ -42,88 +42,84 @@
       display: flex;
       flex-direction: column;
     }
-    .nav { display: flex; align-items: center; justify-content: space-between; padding: 1.0rem; background: #fff; box-shadow: 0 2px 8px rgba(30,34,50,0.04);}
-    .logo { display: flex; align-items: center; gap: 1rem; text-decoration: none; color: #25a4e2; font-size: 1.2rem; font-weight: 600;}
-    .logo img { width: 38px; height: 38px;}
-    .nav-links { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0;}
-    .nav-links a { text-decoration: none; color: #2b3445; font-weight: 500;}
-    .intro { text-align: center; padding: 4rem 1rem 2rem;}
-    .intro-logo { width: 96px; margin-bottom: 1.5rem;}
-    .intro-title { font-size: 2.4rem; font-weight: 700; color: #1b232f; line-height: 1.3;}
+    .nav { display: flex; align-items: center; justify-content: space-between; padding: 1.0rem; background: #fff; box-shadow: 0 2px 8px rgba(30, 34, 50, 0.04); }
+    .logo { display: flex; align-items: center; gap: 1rem; text-decoration: none; color: #25a4e2; font-size: 1.2rem; font-weight: 600; }
+    .logo img { width: 38px; height: 38px; }
+    .nav-links { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0; }
+    .nav-links a { text-decoration: none; color: #2b3445; font-weight: 500; }
+    .intro { text-align: center; padding: 3rem 1rem 2rem; }
+    .intro-logo { width: 96px; margin-bottom: 1.5rem; }
+    .intro-title { font-size: 2.4rem; font-weight: 700; color: #1b232f; line-height: 1.3; }
     .intro-lead { max-width: 480px; margin: 1.5rem auto 2.5rem; font-size: 1.2rem; color: #465164; }
-    .cta-buttons { display: flex; justify-content: center; gap: 0.9rem; flex-wrap: wrap; margin-bottom: 1.3rem;}
-    .cta-btn { background: #25a4e2; color: #fff; padding: 0.8rem 2.2rem; border-radius: 1.7rem; font-size: 1.2rem; font-weight: 500; border: none; text-decoration: none; transition: background 0.18s;}
-    .cta-btn:hover { background: #218ad0;}
-    .cta-btn--secondary { background: #fff; color: #25a4e2; border: 1px solid #25a4e2;}
-    .cta-btn--secondary:hover { background: #f4f6fa;}
-    .extra { color: #888f9b; font-size: 1rem; margin-bottom: 2rem;}
-    .features { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; max-width: 940px; margin: 3rem auto;}
-    .feature-card { background: #fff; border-radius: 1.2rem; box-shadow: 0 2px 12px rgba(23,40,63,0.06); padding: 2rem 1.7rem; min-width: 240px; max-width: 320px; flex: 1 1 240px; text-align: center;}
-    .feature-card img { width: 56px; margin-bottom: 1rem;}
-    .feature-card h3 { font-size: 1.19rem; margin: 0.4rem 0 0.7rem; color: #1b232f;}
-    .feature-card p { color: #535b70; margin: 0;}
-    .footer { background: #232a35; color: #bac6d7; text-align: center; padding: 1.5rem 1rem 1.3rem; font-size: 1rem; margin-top: 3rem;}
+    .cta-buttons { display: flex; justify-content: center; gap: 0.9rem; flex-wrap: wrap; margin-bottom: 1.3rem; }
+    .cta-btn { background: #25a4e2; color: #fff; padding: 0.8rem 2.2rem; border-radius: 1.7rem; font-size: 1.2rem; font-weight: 500; border: none; text-decoration: none; transition: background 0.18s; }
+    .cta-btn:hover { background: #218ad0; }
+    .cta-btn--secondary { background: #fff; color: #25a4e2; border: 1px solid #25a4e2; }
+    .cta-btn--secondary:hover { background: #f4f6fa; }
+    .extra { color: #888f9b; font-size: 1rem; margin-bottom: 2rem; }
+    .features { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; max-width: 940px; margin: 3rem auto; }
+    .feature-card { background: #fff; border-radius: 1.2rem; box-shadow: 0 2px 12px rgba(23, 40, 63, 0.06); padding: 2rem 1.7rem; min-width: 240px; max-width: 320px; flex: 1 1 240px; text-align: center; }
+    .feature-card img { width: 56px; margin-bottom: 1rem; }
+    .feature-card h3 { font-size: 1.19rem; margin: 0.4rem 0 0.7rem; color: #1b232f; }
+    .feature-card p { color: #535b70; margin: 0; }
+    .footer { background: #232a35; color: #bac6d7; text-align: center; padding: 1.5rem 1rem 1.3rem; font-size: 1rem; margin-top: 3rem; }
     .container-main { flex: 1 0 auto; display: flex; flex-direction: column; }
     @media (max-width: 700px) {
-      .features { flex-direction: column; gap: 1.5rem;}
+      .features { flex-direction: column; gap: 1.5rem; }
       .feature-card { max-width: 100%; }
-      .nav { flex-direction: column; gap: 0.5rem;}
+      .nav { flex-direction: column; gap: 0.5rem; }
     }
   </style>
 </head>
 <body>
-  <nav class="nav">
-    <a href="#" class="logo">
-      <img src="https://zhhbqpxjlgkzzsycpopc.supabase.co/storage/v1/object/public/public_bucket//meals-ai.jpg" alt="Meals AI Logo" style="border-radius:50%; width:38px; height:38px;">
-      Meals AI
-    </a>
-  </nav>
+    <nav class="nav">
+      <a href="#" class="logo">
+        <img src="https://zhhbqpxjlgkzzsycpopc.supabase.co/storage/v1/object/public/public_bucket//meals-ai.jpg" alt="Meals AI Logo" style="border-radius:50%; width:38px; height:38px;"> Meals AI </a>
+    </nav>
 
-  <div class="container-main">
-    <section class="intro">
-        <h1 class="intro-title">Snap. Send. Eat.<br>AI Will Keep the Count.</h1>
-        <div class="intro-lead">
-        It eyeballs portions so you don’t have to tally and can fill some gaps in your food diary when you feeling a bit lazy<br><br>
-        <span style="font-size: 3.0em; vertical-align: middle; line-height: 0; padding-top: 16px;">*</span>
-        <span style="font-size: 0.9em;">Sometimes is off by a mushroom slice or two<br>but has keen eye for most of foods!</span>
+    <div class="container-main">
+      <section class="intro">
+        <h1 class="intro-title">Snap. Send. Eat. <br>AI Will Keep the Count. </h1>
+        
+        <div class="intro-lead"> It eyeballs portions so you don’t have to tally and can fill some gaps in your food diary when you feeling a bit lazy <br>
+          <br>
+          <span style="font-size: 3.0em; vertical-align: middle; line-height: 0; padding-top: 16px;">*</span>
+          <span style="font-size: 0.9em;">Sometimes is off by a mushroom slice or two <br>but has keen eye for most of foods! </span>
         </div>
+
         <div class="cta-buttons">
-        <a class="cta-btn" href="https://t.me/meals_ai_bot" target="_blank" rel="noopener noreferrer">Try on Telegram</a>
-        <a class="cta-btn cta-btn--secondary" href="https://t.me/meals_ai_bot" target="_blank" rel="noopener noreferrer">Share</a>
+          <a class="cta-btn" href="https://t.me/meals_ai_bot" target="_blank" rel="noopener noreferrer">Try on Telegram</a>
+          <a class="cta-btn cta-btn--secondary" href="https://t.me/meals_ai_bot" target="_blank" rel="noopener noreferrer">Share</a>
         </div>
+
         <div class="extra">No downloads, no accounts — just Telegram.</div>
-    </section>
+      </section>
 
-    <section class="features" id="features">
-        <div class="feature-card" style="padding:0; background:transparent; box-shadow:none;">
-        <video controls playsinline style="width:100%; border-radius:1.2rem; max-width:320px; margin:0 auto; display:block;">
-            <source src="demo1-mobile.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div style="text-align:center; color:#535b70; font-size:1rem; margin-top:0.7rem;">Snap & Send in Telegram</div>
+      <section style="display: flex; justify-content: center; gap: 16px; max-width: 940px; margin: 1rem auto 3rem;">
+        <div style="padding: 00; background: transparent; box-shadow: none; text-align: center;">
+          <video src="https://zhhbqpxjlgkzzsycpopc.supabase.co/storage/v1/object/public/public_bucket/demo-2.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 12px; max-width: 200px; margin: 0 auto; display: block; box-shadow: 0 2px 12px rgba(23, 40, 63, 0.10); background: #000000; padding-bottom: 43.74px;" preload="auto"></video>
+          <div style="color: #535b70; font-size: 1rem; margin-top: 0.7rem;">Macros Analysis</div>
         </div>
-        <div class="feature-card" style="padding:0; background:transparent; box-shadow:none;">
-        <video controls playsinline style="width:100%; border-radius:1.2rem; max-width:320px; margin:0 auto; display:block;">
-            <source src="demo2-mobile.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div style="text-align:center; color:#535b70; font-size:1rem; margin-top:0.7rem;">Instant Macros & Daily Stats</div>
+
+        <div style="padding: 0; background: transparent; box-shadow: none; text-align: center;">
+          <video src="https://zhhbqpxjlgkzzsycpopc.supabase.co/storage/v1/object/public/public_bucket/demo-1.mp4" autoplay loop muted playsinline style="width: 100%; border-radius: 12px; max-width: 200px; margin: 0 auto; display: block; box-shadow: 0 2px 12px rgba(23, 40, 63, 0.10); background: #eaf2fa;" preload="auto"></video>
+          <div style="color: #535b70; font-size: 1rem; margin-top: 0.7rem;">Macros Analysis</div>
         </div>
-    </section>
+      </section>
     </div>
 
-  <footer class="footer">
-    <div style="display: flex; flex-direction: column; flex: 1; align-items: center; gap: 0.7rem;">
-      Not affiliated. Built for curious foodies & casual gym rats.<br>
-      <span style="display: flex; flex-direction: row; gap: 1rem; align-items: center; font-size: 0.9rem;">
-        <span style="color:#63bbf8;">hi@meals-buddy.de</span>
-        <span>|</span><a href="https://meals-buddy.de/privacy" style="color:#63bbf8;" target="_blank" rel="noopener noreferrer">Privacy</a>
-        <span>|</span><a href="https://meals-buddy.de/terms" style="color:#63bbf8;" target="_blank" rel="noopener noreferrer">Terms</a>
-      </span>
-    </div>
-    <div style="margin-top:1rem;font-size:.95rem;opacity:0.6;">
-      &copy; 2025 Meals AI. <span style="font-size:.94em;">Snap. Send. Eat.</span>
-    </div>
-  </footer>
-</body>
+    <footer class="footer">
+      <div style="display: flex; flex-direction: column; flex: 1; align-items: center; gap: 0.7rem;"> Not affiliated. Built for curious foodies & casual gym rats. <br>
+        <span style="display: flex; flex-direction: row; gap: 1rem; align-items: center; font-size: 0.9rem;">
+          <span style="color:#63bbf8;">hi@meals-buddy.de</span>
+          <span>|</span>
+          <a href="https://meals-buddy.de/privacy" style="color:#63bbf8;" target="_blank" rel="noopener noreferrer">Privacy</a>
+          <span>|</span>
+          <a href="https://meals-buddy.de/terms" style="color:#63bbf8;" target="_blank" rel="noopener noreferrer">Terms</a>
+        </span>
+      </div>
+      <div style="margin-top:1rem;font-size:.95rem;opacity:0.6;"> &copy; 2025 Meals AI. <span style="font-size:.94em;">Snap. Send. Eat.</span>
+      </div>
+    </footer>
+  </body>
 </html>
